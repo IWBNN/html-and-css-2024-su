@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fixed 예제</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        header {
+            border-bottom: 2px solid darkgray;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            top: 0;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+        }
+
+        .header-position-holder {
+            height: 180px;
+        }
+
+        header > h1 {
+            margin: 20px 30px;
+            padding: 0;
+            font-size: 40px;
+        }
+
+        nav ul {
+            margin: 20px 30px;
+            padding: 0;
+            font-size: 40px;
+            display: flex;
+            list-style: none;
+        }
+
+        header li {
+            margin-right: 30px;
+        }
+
+        .to-top {
+            font-size: 30px;
+            position: fixed;
+            right: 30px;
+            bottom: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>My Home</h1>
+    <nav>
+        <ul>
+            <li>소개</li>
+            <li>게시판</li>
+            <li>자료실</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</header>
+<div class="header-position-holder">
+
+</div>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias doloremque eum mollitia nostrum perferendis quos, recusandae sunt voluptatem? Adipisci aliquam aperiam aut cumque et expedita ipsam itaque nemo ratione suscipit?</span><span>Adipisci aut maiores nemo tenetur. Aliquid aperiam, dignissimos, earum, ex explicabo fuga inventore ipsa laudantium maxime mollitia natus necessitatibus officia pariatur possimus unde ut veritatis vitae voluptas. Inventore, molestias, saepe!</span><span>A aliquam, consequatur deleniti deserunt dignissimos esse est ex fugiat iste libero, molestiae nesciunt nulla officiis quaerat quisquam quo sapiente tempora tempore, unde veniam vero vitae voluptatem? Harum, iusto, molestias!</span><span>Animi distinctio eius eligendi expedita facilis in ipsa magni maiores natus nostrum quaerat, soluta sunt suscipit. Culpa cum, dicta distinctio eaque laboriosam molestiae omnis porro quasi quibusdam quidem quos, ullam?</span><span>Accusantium aspernatur cupiditate deserunt dignissimos distinctio dolore dolores eaque, earum eos et exercitationem explicabo illo iusto molestias, mollitia natus perferendis placeat praesentium quod reprehenderit sed tempora voluptates! Libero, reprehenderit, voluptatibus.</span><span>Adipisci dolor ducimus explicabo nulla optio placeat reiciendis, sint tenetur totam voluptates? Ab ad asperiores dolore, eveniet fugiat, fugit hic laboriosam neque pariatur quia rem rerum saepe sed voluptate voluptates.</span><span>Ab animi aperiam consectetur, consequuntur delectus deleniti distinctio dolorum eaque excepturi exercitationem incidunt laboriosam, laborum libero non optio pariatur quisquam similique sit temporibus tenetur velit veniam voluptas voluptatibus. Ducimus, unde.</span><span>Adipisci aliquam aperiam doloremque dolorum eaque impedit in molestias officiis sequi sit? Ad, asperiores consequatur cupiditate delectus dolorem doloremque dolorum expedita impedit in magnam, maiores quae similique! Inventore, magni, maxime!</span><span>Accusantium dolore ducimus earum odio qui quisquam, sit voluptatibus. Accusamus adipisci amet animi cumque ducimus earum et fugiat illo ipsam itaque maiores modi, non odio quo reiciendis saepe sapiente tenetur?</span><span>Eos, nesciunt, quae? Accusamus beatae blanditiis corporis delectus deleniti dolorum, ea eius esse hic in itaque minus non nostrum numquam officiis omnis pariatur perspiciatis quam voluptate voluptatum. Beatae, blanditiis suscipit!</span><span>Deleniti dignissimos dolore ducimus earum ex fuga fugit illum ipsum iusto laborum magnam molestias, optio perferendis, praesentium quis recusandae repudiandae vitae voluptas voluptate voluptatibus. Accusamus cumque dolorem in rem temporibus.</span><span>A ad adipisci aliquid amet commodi culpa cum cupiditate debitis eaque eos excepturi expedita laboriosam minus nam, non nostrum optio quibusdam quos rem repudiandae saepe soluta tempora temporibus tenetur ullam!</span><span>Commodi eius error ipsa libero? Aspernatur beatae distinctio dolor enim eum ipsa, ipsam laborum magnam mollitia placeat, quaerat quia rerum! Asperiores culpa deleniti hic obcaecati odio quae quasi vitae voluptatum!</span><span>Consequatur doloremque, ex ipsum nisi quis repellat sapiente voluptate. Beatae corporis debitis eaque et incidunt ipsam libero, molestiae, nesciunt obcaecati pariatur porro provident quo ratione, sit vero. Exercitationem libero, voluptatem.</span><span>Dolores obcaecati, officia qui quidem quo quod? Blanditiis consequuntur dolore eius esse explicabo ipsa iure, magnam natus neque, odit omnis optio repellendus, rerum totam velit. Cupiditate incidunt maxime ratione recusandae.</span><span>Accusantium blanditiis corporis cum error, explicabo hic, iusto molestiae nam pariatur praesentium qui sequi vel vero! Assumenda dolorum eligendi enim exercitationem ipsam porro quod saepe sunt veritatis voluptates? Nulla, sapiente.</span><span>Ab aperiam architecto, consequuntur delectus dignissimos dolores eaque est eveniet ipsa, labore laudantium, nostrum odio quaerat repellendus repudiandae sint sit totam ullam ut voluptates? Dolores eius impedit iusto quam quasi?</span><span>Ad commodi officia perferendis reprehenderit. Amet harum molestiae possimus recusandae, repellendus velit! Aperiam beatae earum eius est incidunt maiores natus nisi rerum veritatis, vero! Consectetur laborum numquam pariatur reprehenderit veritatis!</span><span>Accusamus aspernatur assumenda, consequuntur, cumque, doloremque est illum iusto minus mollitia quas recusandae reiciendis veritatis voluptatum! Asperiores, aut molestiae placeat quae quas tempora velit. Eaque provident qui saepe similique velit?</span><span>Accusamus, magni, voluptatem. Aliquid animi, aperiam aspernatur at blanditiis commodi dicta dolor doloremque dolorum earum fugit harum, illo illum in libero nam natus nesciunt quae quidem quisquam voluptas voluptatibus voluptatum?</span>
+</p>
+
+<div class="to-top">
+    <a href="#">맨 위로 이동</a>
+</div>
+
+</body>
+</html>
