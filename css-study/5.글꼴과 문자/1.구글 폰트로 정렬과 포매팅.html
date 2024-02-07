@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>구글 폰트 정렬 포매팅</title>
+    <!--  NOTO 한글 , Josefin, Dancing script, nanum brush 웹폰트  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Josefin+Sans:ital,wght@0,200;0,300;1,400&family=Nanum+Brush+Script&family=Noto+Sans+KR:wght@300&display=swap"
+          rel="stylesheet">
+    <style>
+        /*font-family: 'Dancing Script', cursive;*/
+        /*font-family: 'Josefin Sans', sans-serif;*/
+        /*font-family: 'Nanum Brush Script', cursive;*/
+        /*font-family: 'Noto Sans KR', sans-serif;*/
+        .letterbox {
+            background-color: skyblue;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        .font_sans-serif-eng {
+            font-family: 'Josefin Sans', 'Noto Sans KR', sans-serif;
+        }
+
+        .font_sans-serif-kor {
+            font-family: 'Noto Sans KR', 'Josefin Sans', sans-serif;
+        }
+
+        .font_cursive-eng {
+            font-family: 'Dancing Script', 'Nanum Brush Script', cursive;
+        }
+
+        .font_cursive-kor {
+            font-family: 'Nanum Brush Script', sans-serif;
+        }
+
+        .font_sans-serif-eng ~ p {
+            font-family: 'Josefin Sans', 'Noto Sans KR', sans-serif;
+        }
+
+        .font_sans-serif-kor ~ p {
+            font-family: 'Noto Sans KR', 'Josefin Sans', sans-serif;
+        }
+
+        .font_cursive-eng ~ p {
+            font-family: 'Dancing Script', 'Nanum Brush Script', cursive;
+        }
+
+        .font_cursive-kor ~ p {
+            font-family: 'Nanum Brush Script', sans-serif;
+        }
+
+        h1 {
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        h2 {
+            /*letter-spacing: 5px;*/
+            word-spacing: 8px;
+        }
+
+        p {
+            text-indent: 1em;
+            /*text-align: center;*/
+            text-align: justify;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="letterbox">
+    상자 안에 들어있는 문자열이 있습니다.
+</div>
+<h1>텍스트 정렬 연습하기</h1>
+<div class="container">
+    <h2 class="font_sans-serif-eng">Sans serif 영문</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores earum laudantium reiciendis totam. Amet
+        eligendi eos explicabo, magnam obcaecati porro quisquam. Aut ea earum est inventore iusto, neque ullam?
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores earum laudantium reiciendis totam. Amet
+        eligendi eos explicabo, magnam obcaecati porro quisquam. Aut ea earum est inventore iusto, neque ullam?
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores earum laudantium reiciendis totam. Amet
+        eligendi eos explicabo, magnam obcaecati porro quisquam. Aut ea earum est inventore iusto, neque ullam?
+    </p>
+    <h2 class="font_sans-serif-kor">Sans serif 한글</h2>
+    <p>애플 비전 프로(Apple Vision Pro)의 출시는 애플에 있어 중요한 분수령이 될 것이다. 천정부지로 치솟은 가격과 한정된 수량으로 인해 지금 당장은 아이폰만 한 영향력을 발휘하지 못하겠지만,
+        애플은 이 제품이 미래라는 것을 분명히 알고 있다.
+
+        원문보기:
+        https://www.itworld.co.kr/review/324400#csidxb23b047e89980d699b8b47f2ac824b9
+    </p>
+    <p>애플 비전 프로(Apple Vision Pro)의 출시는 애플에 있어 중요한 분수령이 될 것이다. 천정부지로 치솟은 가격과 한정된 수량으로 인해 지금 당장은 아이폰만 한 영향력을 발휘하지 못하겠지만,
+        애플은 이 제품이 미래라는 것을 분명히 알고 있다.
+
+        원문보기:
+        https://www.itworld.co.kr/review/324400#csidxb23b047e89980d699b8b47f2ac824b9
+    </p>
+    <h2 class="font_cursive-eng">Cursive 영문</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid animi doloremque ducimus, eaque eius id
+        iste iure modi necessitatibus non officia officiis provident qui quo sapiente sint vel veniam!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid animi doloremque ducimus, eaque eius id
+        iste iure modi necessitatibus non officia officiis provident qui quo sapiente sint vel veniam!
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid animi doloremque ducimus, eaque eius id
+        iste iure modi necessitatibus non officia officiis provident qui quo sapiente sint vel veniam!
+    </p>
+    <h2 class="font_cursive-kor">Cursive 한글</h2>
+    <p>공간 컴퓨팅은 애플의 미래일 뿐 아니라 모든 컴퓨팅의 미래라고 할 수 있다. 애플은 사용자가 주변 공간에서 가상의 사물과 상호작용하고 가상의 객체가 실제 사물 및 공간과 상호작용하는 공간 컴퓨팅을 차세대
+        컴퓨팅으로 내세우고 있다.
+
+        원문보기:
+        https://www.itworld.co.kr/review/324400#csidxcbab58d1aacf5e58e9f60c6eaf5adc4
+    </p>
+    <p>공간 컴퓨팅은 애플의 미래일 뿐 아니라 모든 컴퓨팅의 미래라고 할 수 있다. 애플은 사용자가 주변 공간에서 가상의 사물과 상호작용하고 가상의 객체가 실제 사물 및 공간과 상호작용하는 공간 컴퓨팅을 차세대
+        컴퓨팅으로 내세우고 있다.
+
+        원문보기:
+        https://www.itworld.co.kr/review/324400#csidxcbab58d1aacf5e58e9f60c6eaf5adc4
+    </p>
+</div>
+</body>
+</html>
