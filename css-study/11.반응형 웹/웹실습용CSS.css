@@ -87,9 +87,11 @@ body {
 @-webkit-keyframes opacity {
     0%, 100% {
         opacity: 0;
+        transform: rotate(180deg);
     }
     50% {
         opacity: 1;
+        transform: rotate(180deg);
     }
 }
 
